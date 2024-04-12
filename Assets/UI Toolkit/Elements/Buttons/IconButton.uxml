@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Elements/Buttons/StyleSheets/icon-button.uss?fileID=7433441132597879392&amp;guid=02a8f8423e7cbee459e11c4d2eef3fb4&amp;type=3#icon-button" />
+    <ui:Button text="Button" display-tooltip-when-elided="true" name="button-root" class="text-button" style="font-size: 0;">
+        <ui:VisualElement name="button-content">
+            <ui:VisualElement name="button-icon" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

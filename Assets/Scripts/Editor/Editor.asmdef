@@ -1,0 +1,22 @@
+{
+    "name": "Editor",
+    "rootNamespace": "MyGame",
+    "references": [
+        "Core",
+        "General",
+        "Data",
+        "Logic",
+        "UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

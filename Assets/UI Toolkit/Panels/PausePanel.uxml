@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Background" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:VisualElement name="PausePanel" style="position: absolute; width: 40%; height: 80%; background-color: rgb(48, 48, 48); align-items: center; justify-content: center;">
+            <ui:VisualElement name="ButtonsPanel" style="width: 100%; height: 50%; align-items: center; justify-content: center;">
+                <ui:VisualElement name="ResumeButton" focusable="true" style="flex-shrink: 0; width: 70%; height: 30%;">
+                    <Style src="project://database/Assets/UI%20Toolkit/Elements/Buttons/StyleSheets/text-button.uss?fileID=7433441132597879392&amp;guid=c9ca3c7ece6eaa048a1496acbecc271b&amp;type=3#text-button" />
+                    <ui:Button display-tooltip-when-elided="true" name="button-root" class="text-button">
+                        <ui:VisualElement name="button-content" style="-unity-text-align: middle-center;">
+                            <ui:Label text="RESUME" display-tooltip-when-elided="true" name="button-label" style="font-size: 50%;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="RestartButton" style="width: 70%; height: 30%; flex-shrink: 0;">
+                    <Style src="project://database/Assets/UI%20Toolkit/Elements/Buttons/StyleSheets/text-button.uss?fileID=7433441132597879392&amp;guid=c9ca3c7ece6eaa048a1496acbecc271b&amp;type=3#text-button" />
+                    <ui:Button display-tooltip-when-elided="true" name="button-root" class="text-button">
+                        <ui:VisualElement name="button-content">
+                            <ui:Label text="RESTART" display-tooltip-when-elided="true" name="button-label" style="font-size: 50%;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="QuitButton" style="width: 70%; height: 30%; flex-shrink: 0;">
+                    <Style src="project://database/Assets/UI%20Toolkit/Elements/Buttons/StyleSheets/text-button.uss?fileID=7433441132597879392&amp;guid=c9ca3c7ece6eaa048a1496acbecc271b&amp;type=3#text-button" />
+                    <ui:Button display-tooltip-when-elided="true" name="button-root" class="text-button">
+                        <ui:VisualElement name="button-content">
+                            <ui:Label text="QUIT" display-tooltip-when-elided="true" name="button-label" style="font-size: 50%;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label text="Pause" display-tooltip-when-elided="true" name="Header" style="position: absolute; top: 5%; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/Fonts/BreakPassword.otf?fileID=12800000&amp;guid=26d8c3e3d91042248bbad1d8294d1967&amp;type=3#BreakPassword&apos;); -unity-font-definition: none; -unity-font-style: bold; font-size: 100%; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

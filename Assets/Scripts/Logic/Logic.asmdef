@@ -1,0 +1,25 @@
+{
+    "name": "Logic",
+    "rootNamespace": "MyGame",
+    "references": [
+        "Leopotam.EcsLite",
+        "Leopotam.EcsLite.Di",
+        "Leopotam.EcsLite.UnityEditor",
+        "Leopotam.EcsLite.UnityEditor.Runtime",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "UniTask",
+        "AstarPathfindingProject",
+        "General",
+        "Data"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Core",
+    "rootNamespace": "MyGame",
+    "references": [
+        "UnityEngine.Advertisements",
+        "Unity.InputSystem",
+        "UniTask",
+        "Cinemachine",
+        "Logic",
+        "Data",
+        "General",
+        "UI",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

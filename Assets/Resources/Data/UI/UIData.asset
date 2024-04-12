@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ef393711d348b6b6c04b4b454cf5fa, type: 3}
+  m_Name: UIData
+  m_EditorClassIdentifier: 
+  _hudData: {fileID: 11400000, guid: f62f3d27c79dfe2449bcfd8dfa594054, type: 2}
+  <HudPrefab>k__BackingField: {fileID: 6405876951254539154, guid: 58a26bd5540d45a4c9cef39c05267f90, type: 3}
+  <MobileControllersPrefab>k__BackingField: {fileID: 1324105046825396357, guid: 26e16be8ed33b9042a911b7e9b6f3d52, type: 3}
+  <PauseMenuPrefab>k__BackingField: {fileID: 6984818104573955476, guid: b3cc1ed97f25daf4f927fc3a3b9f044f, type: 3}
