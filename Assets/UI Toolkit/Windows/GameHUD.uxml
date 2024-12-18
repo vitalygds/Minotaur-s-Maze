@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="TextButton" src="project://database/Assets/UI%20Toolkit/Elements/Buttons/TextButton.uxml?fileID=9197481963319205126&amp;guid=c809e325b3a1bea4aba6514a56410c28&amp;type=3#TextButton" />
+    <ui:Template name="IconButton" src="project://database/Assets/UI%20Toolkit/Elements/Buttons/IconButton.uxml?fileID=9197481963319205126&amp;guid=8356fd1926325ae40aa996b0887411a4&amp;type=3#IconButton" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/icon-button.uss?fileID=7433441132597879392&amp;guid=2574e73a2d186414ab2fcd664474a58c&amp;type=3#icon-button" />
+    <ui:VisualElement name="Background" style="background-image: none; width: 100%; height: 100%; align-items: center; justify-content: center; flex-direction: column; flex-grow: 0; flex-shrink: 1;">
+        <ui:VisualElement name="Scroll" style="width: 40%; height: 40%; background-image: resource(&apos;UI/Sprites/Elements/Scroll&apos;); align-items: center; justify-content: center; flex-basis: auto; flex-direction: column; flex-grow: 0; flex-wrap: nowrap; flex-shrink: 1; overflow: visible; left: auto;">
+            <ui:Label text="Find the tseature!" display-tooltip-when-elided="true" name="Text" style="width: 40%; height: 50%; white-space: normal; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/Fonts/BreakPassword.otf?fileID=12800000&amp;guid=26d8c3e3d91042248bbad1d8294d1967&amp;type=3#BreakPassword&apos;); font-size: 30%; color: rgba(0, 0, 0, 0.78); -unity-font-definition: none; -unity-font-style: italic; -unity-text-align: middle-center; text-shadow: 0 0 5px rgba(0, 0, 0, 0.78); letter-spacing: 0; align-items: center; justify-content: center; flex-wrap: nowrap; flex-shrink: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="InteractivePanel" style="position: absolute; top: 5%; width: 90%; height: 10%; justify-content: center; align-items: center;">
+            <ui:VisualElement name="Harp" style="position: absolute; left: 0; top: 0; background-image: resource(&apos;Items/Sprites/Arfa&apos;); width: 64px; height: 64px; flex-basis: auto; flex-direction: row;" />
+            <ui:Instance template="IconButton" name="PauseButton" focusable="true" style="position: absolute; right: 0; width: 8%; height: 100%; flex-shrink: 0;" />
+        </ui:VisualElement>
+        <ui:Instance template="TextButton" name="AdsButton" focusable="true" style="flex-shrink: 0; width: 10%; height: 10%; position: absolute; bottom: 2%;">
+            <AttributeOverrides element-name="button-label" text="EZ WIn" enable-rich-text="false" />
+        </ui:Instance>
+    </ui:VisualElement>
+</ui:UXML>

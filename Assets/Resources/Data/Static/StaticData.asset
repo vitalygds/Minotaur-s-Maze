@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f384030906465283e70c148087412c, type: 3}
+  m_Name: StaticData
+  m_EditorClassIdentifier: 
+  _heroPrefab: {fileID: 495839497928131492, guid: 0a43e1b200ae43844aa8cd31b13a6287, type: 3}
+  _minotaurPrefab: {fileID: 7776528391671921015, guid: 1d51a4218d4c0d54f824f50f51aeaaea, type: 3}
+  _artifactPrefab: {fileID: 4374675372634583183, guid: 11ddcdebfef25924c9a86af3cd6e63b0, type: 3}

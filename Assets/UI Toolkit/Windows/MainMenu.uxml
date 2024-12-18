@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Background" style="justify-content: center; align-items: center; width: 100%; height: 100%;">
+        <ui:VisualElement name="MenuScreen" style="justify-content: flex-start; align-items: center; width: 80%; height: 80%; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;UI/Sprites/Backgrounds/MainMenuBackground&apos;); -unity-background-scale-mode: scale-and-crop;">
+            <ui:VisualElement name="MainText" style="width: 80%; height: auto; justify-content: center; align-items: flex-end; max-height: 50%; min-height: 30%; -unity-font: none; transform-origin: right top; translate: 0 0;">
+                <ui:Label text="Minotaur&apos;s maze" display-tooltip-when-elided="true" name="GameName" style="-unity-font-style: bold; font-size: 100%; color: rgb(255, 237, 8); white-space: normal; width: 50%; -unity-text-align: middle-center; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/Fonts/BreakPassword.otf?fileID=12800000&amp;guid=26d8c3e3d91042248bbad1d8294d1967&amp;type=3#BreakPassword&apos;); -unity-font-definition: none;" />
+                <ui:Label display-tooltip-when-elided="true" name="ByLabel" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 14%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="width: 90%; height: 25%; max-height: none; min-height: auto; justify-content: center; align-items: flex-end;">
+                <ui:VisualElement name="StartButton" style="width: 20%; height: 40%;">
+                    <Style src="project://database/Assets/UI%20Toolkit/Elements/Buttons/StyleSheets/text-button.uss?fileID=7433441132597879392&amp;guid=c9ca3c7ece6eaa048a1496acbecc271b&amp;type=3#text-button" />
+                    <ui:Button display-tooltip-when-elided="true" name="button-root" class="text-button">
+                        <ui:VisualElement name="button-content">
+                            <ui:Label text="START" display-tooltip-when-elided="true" name="button-label" style="font-size: 30%;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="QuitButton" style="width: 20%; height: 40%;">
+                    <Style src="project://database/Assets/UI%20Toolkit/Elements/Buttons/StyleSheets/text-button.uss?fileID=7433441132597879392&amp;guid=c9ca3c7ece6eaa048a1496acbecc271b&amp;type=3#text-button" />
+                    <ui:Button display-tooltip-when-elided="true" name="button-root" class="text-button">
+                        <ui:VisualElement name="button-content">
+                            <ui:Label text="QUIT" display-tooltip-when-elided="true" name="button-label" style="font-size: 30%;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Options" style="position: absolute; bottom: 0; right: 0; left: 0; height: 20%; align-items: flex-end; justify-content: center;">
+                <ui:VisualElement name="Joystics" style="position: absolute; right: 10%; width: 20%; height: 50%; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/Fonts/BreakPassword.otf?fileID=12800000&amp;guid=26d8c3e3d91042248bbad1d8294d1967&amp;type=3#BreakPassword&apos;);">
+                    <ui:Label text="Enable joysticks" display-tooltip-when-elided="true" name="Joysticks_lbl" style="-unity-font-style: bold; font-size: 30%; color: rgb(255, 0, 0); white-space: normal; width: 100%; -unity-text-align: middle-left; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/Fonts/BreakPassword.otf?fileID=12800000&amp;guid=26d8c3e3d91042248bbad1d8294d1967&amp;type=3#BreakPassword&apos;); -unity-font-definition: none; align-items: flex-end; justify-content: center; height: 50%; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 2px; background-color: rgba(0, 0, 0, 0); border-left-color: rgb(255, 229, 229); border-right-color: rgb(255, 229, 229); border-top-color: rgb(255, 229, 229); border-bottom-color: rgb(255, 229, 229);">
+                        <ui:Toggle name="Joystics_Toggle" />
+                    </ui:Label>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
