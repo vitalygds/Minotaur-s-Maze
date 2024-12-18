@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MyGame.Logic.Animators
+namespace Logic
 {
     internal static class AnimatorVariables
     {

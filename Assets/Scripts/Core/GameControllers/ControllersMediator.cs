@@ -1,11 +1,9 @@
 using System;
-using MyGame.General.Controller;
-using MyGame.General.Service;
-using MyGame.General.View;
+using General;
 using UnityEngine;
 using Zenject;
 
-namespace MyGame.Core.GameControllers
+namespace Core
 {
     internal sealed class ControllersMediator : IControllersMediator
     {

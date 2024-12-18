@@ -1,10 +1,7 @@
 ﻿using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.Logic.Components.Input;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services;
 
-namespace MyGame.Logic.Systems.Game
+namespace Logic
 {
     internal sealed class MaterialSpriteUpdateSystem : IEcsRunSystem
     {

@@ -1,9 +1,7 @@
-﻿using Leopotam.EcsLite;
-using MyGame.General.Data;
-using MyGame.Logic.Services.Views;
-using MyGame.Logic.Views;
+﻿using General;
+using Leopotam.EcsLite;
 
-namespace MyGame.Logic.Systems.Initialize
+namespace Logic
 {
     internal sealed class InitializeArtifactSystem : IEcsInitSystem
     {

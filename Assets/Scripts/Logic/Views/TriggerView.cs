@@ -1,12 +1,8 @@
 using System;
 using Leopotam.EcsLite;
-using MyGame.Logic.Components;
-using MyGame.Logic.Components.Events;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services.Extensions;
 using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     public abstract class TriggerView : UnityEcsView
     {

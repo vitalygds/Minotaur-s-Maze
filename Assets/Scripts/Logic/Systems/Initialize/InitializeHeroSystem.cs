@@ -1,12 +1,8 @@
+using General;
 using Leopotam.EcsLite;
-using MyGame.General.Controller;
-using MyGame.General.Data;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services.Views;
-using MyGame.Logic.Views;
 using UnityEngine;
 
-namespace MyGame.Logic.Systems.Initialize
+namespace Logic
 {
     internal sealed class InitializeHeroSystem : IEcsInitSystem
     {

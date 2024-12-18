@@ -1,9 +1,8 @@
-using MyGame.Extensions;
-using MyGame.General;
+using General;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace MyGame.UI
+namespace UI
 {
     internal sealed class MainMenu : MonoBehaviour
     {

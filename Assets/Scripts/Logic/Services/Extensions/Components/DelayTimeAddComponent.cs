@@ -1,6 +1,6 @@
 ﻿using Leopotam.EcsLite;
 
-namespace MyGame.Logic.Services.Extensions.Components
+namespace Logic
 {
     internal struct DelayTimeAddComponent<T> where T : struct
     {

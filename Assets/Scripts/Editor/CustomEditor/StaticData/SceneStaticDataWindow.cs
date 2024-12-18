@@ -1,9 +1,9 @@
-using MyGame.Data;
+using Data;
 using Sirenix.OdinInspector.Editor;
 using UnityEditor;
 using UnityEngine;
 
-namespace MyGame.Editor.CustomEditor.StaticData
+namespace Editor
 {
     public class SceneStaticDataWindow : OdinMenuEditorWindow
     {

@@ -1,9 +1,7 @@
 ﻿using Leopotam.EcsLite;
-using MyGame.Logic.Components.Unique;
-using MyGame.Logic.Components.Unity;
 using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     [RequireComponent(typeof(CircleCollider2D))]
     [RequireComponent(typeof(Rigidbody2D))]

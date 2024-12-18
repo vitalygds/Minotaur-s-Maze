@@ -1,4 +1,4 @@
-﻿namespace MyGame.Logic.Components
+﻿namespace Logic
 {
     public struct OnDestroyComponent
     { }

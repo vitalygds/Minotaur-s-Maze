@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace MyGame.Data.Skills
+namespace Data
 {
     [Serializable]
     public struct SkillPointData

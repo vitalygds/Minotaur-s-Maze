@@ -1,7 +1,7 @@
+using General;
 using Leopotam.EcsLite;
-using MyGame.General.View;
 
-namespace MyGame.Logic.Services.Views
+namespace Logic
 {
     public interface IEcsView : IView
     {

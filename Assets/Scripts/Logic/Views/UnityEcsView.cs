@@ -1,9 +1,7 @@
 ﻿using Leopotam.EcsLite;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services.Views;
 using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     [SelectionBase]
     public abstract class UnityEcsView : MonoBehaviour, IEcsView

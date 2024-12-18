@@ -1,9 +1,8 @@
-﻿using MyGame.General.Service.Input;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using Random = UnityEngine.Random;
 
-namespace MyGame.General.Debug
+namespace General
 {
     public class ConsoleToGUI : MonoBehaviour, IConsoleInputListener
     {

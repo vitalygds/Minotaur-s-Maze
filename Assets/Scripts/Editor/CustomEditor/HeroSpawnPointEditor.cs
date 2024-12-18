@@ -1,9 +1,9 @@
 ﻿using System;
-using MyGame.Data.Level;
+using Data;
 using UnityEditor;
 using UnityEngine;
 
-namespace MyGame.Editor.CustomEditor
+namespace Editor
 {
     [UnityEditor.CustomEditor(typeof(SpawnPoint))]
     public class SpawnMarkersEditor : UnityEditor.Editor

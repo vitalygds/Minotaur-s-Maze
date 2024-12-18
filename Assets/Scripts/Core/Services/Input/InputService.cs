@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using MyGame.General.Service.Input;
-using MyGame.General.Services.Input;
+﻿using System.Collections.Generic;
+using General;
 using UnityEngine.InputSystem;
 
-namespace MyGame.Core.Services.Input
+namespace Core
 {
     internal sealed class InputService : IInputService, InputControls.IHeroActions, InputControls.IConsoleActions
     {

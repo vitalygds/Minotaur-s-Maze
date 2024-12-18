@@ -1,4 +1,4 @@
-namespace MyGame.General.Controller
+namespace General
 {
     public interface ILateUpdate : IController
     {

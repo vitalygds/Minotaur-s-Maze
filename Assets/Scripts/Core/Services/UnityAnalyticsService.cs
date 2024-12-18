@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using MyGame.General.Service;
+using General;
 using UnityEngine.Analytics;
 using UnityEngine.Device;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class UnityAnalyticsService : IAnalyticsService
     {

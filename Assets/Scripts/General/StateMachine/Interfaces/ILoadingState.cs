@@ -1,4 +1,4 @@
-namespace MyGame.General.StateMachine.Interfaces
+namespace General
 {
     public interface ILoadingState<TLoad> : IExitableState
     {

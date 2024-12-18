@@ -1,10 +1,9 @@
-using MyGame.General.Controller;
-using MyGame.General.Service;
+using General;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;
 
-namespace MyGame.Core
+namespace Core
 {
     public class Bootstrapper : MonoBehaviour
     {

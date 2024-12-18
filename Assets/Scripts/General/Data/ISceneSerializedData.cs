@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MyGame.General.Data
+namespace General
 {
     public interface ISceneSerializedData
     {

@@ -1,6 +1,6 @@
 ﻿using Leopotam.EcsLite;
 
-namespace MyGame.Logic.Services.Extensions
+namespace Logic
 {
     public static class EcsPoolsExtensions
     {

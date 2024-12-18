@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyGame.Logic.Services.Views
+namespace Logic
 {
     internal interface IViewService
     {

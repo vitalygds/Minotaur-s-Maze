@@ -1,4 +1,4 @@
-﻿namespace MyGame.General
+﻿namespace General
 {
     public interface IGameStarter
     {

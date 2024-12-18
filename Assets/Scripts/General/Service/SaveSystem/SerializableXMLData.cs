@@ -2,7 +2,7 @@
 using System.IO;
 using System.Xml.Serialization;
 
-namespace MyGame.General.Service.SaveSystem
+namespace General
 {
     public class SerializableXMLData<T> : IData<T>
     {

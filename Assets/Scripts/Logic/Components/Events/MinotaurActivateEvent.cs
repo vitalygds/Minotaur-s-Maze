@@ -1,4 +1,4 @@
-﻿namespace MyGame.Logic.Components.Events
+﻿namespace Logic
 {
     public struct MinotaurActivateEvent
     { }

@@ -1,14 +1,8 @@
-﻿using Leopotam.EcsLite;
+﻿using General;
+using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.General.Data;
-using MyGame.General.Service;
-using MyGame.Logic.Animators;
-using MyGame.Logic.Components;
-using MyGame.Logic.Components.Skills;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services.Extensions;
 
-namespace MyGame.Logic.Systems
+namespace Logic
 {
     public class SpikesAnimateSystem : IEcsRunSystem
     {

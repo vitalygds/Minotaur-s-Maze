@@ -1,11 +1,11 @@
 using System.Linq;
-using MyGame.Data;
-using MyGame.Logic.Views;
+using Data;
+using Logic;
 using Sirenix.OdinInspector.Editor;
 using UnityEditor;
 using UnityEngine;
 
-namespace MyGame.Editor.CustomEditor.StaticData
+namespace Editor
 {
     [UnityEditor.CustomEditor(typeof(OnSceneSerializationData))]
     public class OnSceneSerializationDataEditor : OdinEditor

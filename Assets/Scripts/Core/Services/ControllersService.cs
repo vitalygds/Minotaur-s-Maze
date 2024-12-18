@@ -1,18 +1,10 @@
-﻿using System;
-using MyGame.Core.GameControllers;
-using MyGame.Core.GameControllers.CameraControllers;
-using MyGame.Core.Services.Input;
-using MyGame.General.Controller;
-using MyGame.General.Data;
-using MyGame.General.Debug;
-using MyGame.General.Service;
-using MyGame.General.Service.Input;
-using MyGame.Logic.Systems;
+﻿using General;
+using Logic;
 using UnityEngine;
-using Object = UnityEngine.Object;
 using Zenject;
+using Object = UnityEngine.Object;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class ControllersService : IControllersService
     {

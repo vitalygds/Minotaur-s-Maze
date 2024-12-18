@@ -1,6 +1,6 @@
-using MyGame.General.Service;
+using General;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class TimeService : ITimeService
     {

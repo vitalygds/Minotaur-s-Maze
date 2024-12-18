@@ -1,13 +1,7 @@
-using MyGame.Core.GameControllers;
-using MyGame.Core.Services;
-using MyGame.Core.Services.Input;
-using MyGame.Core.Services.Pooling;
-using MyGame.General.Controller;
-using MyGame.General.Service;
-using MyGame.General.Service.Input;
+using General;
 using Zenject;
 
-namespace MyGame.Core
+namespace Core
 {
     internal sealed class BootstrapInstaller : MonoInstaller
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MyGame.Logic.Components.Unity
+namespace Logic
 {
     internal struct TransformComponent
     {

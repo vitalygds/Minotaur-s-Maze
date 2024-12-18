@@ -1,4 +1,4 @@
-﻿namespace MyGame.General.Service.SaveSystem
+﻿namespace General
 {
     public interface IData<T>
     {

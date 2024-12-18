@@ -1,13 +1,8 @@
 ﻿using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.Logic.Animators;
-using MyGame.Logic.Components.Input;
-using MyGame.Logic.Components.Skills;
-using MyGame.Logic.Components.Unique;
-using MyGame.Logic.Components.Unity;
 using UnityEngine;
 
-namespace MyGame.Logic.Systems.Hero
+namespace Logic
 {
     internal sealed class HeroAnimateSystem : IEcsRunSystem
     {

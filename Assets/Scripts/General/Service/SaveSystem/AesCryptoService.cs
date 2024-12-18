@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace MyGame.General.Service.SaveSystem
+namespace General
 {
     public static class AesCryptoService
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine.UIElements;
 
-namespace MyGame.Extensions
+namespace UI
 {
     internal static class VisualElementsExtensions
     {

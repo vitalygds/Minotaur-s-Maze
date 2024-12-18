@@ -1,12 +1,11 @@
 ﻿using System;
-using MyGame.Data;
-using MyGame.Data.Level;
+using Data;
 using Sirenix.OdinInspector.Editor;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace MyGame.Editor.CustomEditor.StaticData
+namespace Editor
 {
     [UnityEditor.CustomEditor(typeof(LevelStaticData))]
     public class LevelStaticDataEditor : OdinEditor

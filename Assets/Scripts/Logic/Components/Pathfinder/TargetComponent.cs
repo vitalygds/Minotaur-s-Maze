@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MyGame.Logic.Components.Pathfinder
+namespace Logic
 {
     internal struct TargetComponent
     {

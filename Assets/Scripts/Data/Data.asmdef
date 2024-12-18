@@ -1,8 +1,8 @@
 {
     "name": "Data",
-    "rootNamespace": "MyGame",
+    "rootNamespace": "",
     "references": [
-        "General"
+        "GUID:1d0b670215dc277408a7c5f08083a8d7"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

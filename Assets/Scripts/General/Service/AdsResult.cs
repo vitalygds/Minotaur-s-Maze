@@ -1,4 +1,4 @@
-﻿namespace MyGame.General.Service
+﻿namespace General
 {
     public enum AdsResult
     {

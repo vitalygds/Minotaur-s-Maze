@@ -1,11 +1,8 @@
 ﻿using Leopotam.EcsLite;
-using MyGame.Logic.Components.Pathfinder;
-using MyGame.Logic.Components.Unique;
-using MyGame.Logic.Components.Unity;
 using Pathfinding;
 using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     [SelectionBase]
     [RequireComponent(typeof(CircleCollider2D))]

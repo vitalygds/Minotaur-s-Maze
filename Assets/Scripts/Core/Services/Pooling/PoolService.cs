@@ -1,10 +1,8 @@
 using System.Collections.Generic;
-using MyGame.General.Extensions;
-using MyGame.General.Service;
-using MyGame.General.Services;
+using General;
 using UnityEngine;
 
-namespace MyGame.Core.Services.Pooling
+namespace Core
 {
     internal sealed class PoolService : IPoolService
     {

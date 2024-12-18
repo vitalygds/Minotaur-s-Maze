@@ -1,8 +1,7 @@
-using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace MyGame.Core
+namespace Core
 {
     public class LoadingScreen : MonoBehaviour
     {

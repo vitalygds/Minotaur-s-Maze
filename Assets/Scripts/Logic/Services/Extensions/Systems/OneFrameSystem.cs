@@ -1,7 +1,6 @@
 ﻿using Leopotam.EcsLite;
-using Leopotam.EcsLite.Di;
 
-namespace MyGame.Logic.Services.Extensions.Systems
+namespace Logic
 {
     internal sealed class OneFrameSystem<T> : IEcsInitSystem, IEcsRunSystem where T : struct
     {

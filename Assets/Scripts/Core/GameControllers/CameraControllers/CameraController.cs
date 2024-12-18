@@ -1,11 +1,8 @@
 using Cinemachine;
-using MyGame.General.Controller;
-using MyGame.General.Data;
-using MyGame.General.Extensions;
-using MyGame.General.View;
+using General;
 using UnityEngine;
 
-namespace MyGame.Core.GameControllers.CameraControllers
+namespace Core
 {
     internal sealed class CameraController : ICameraController
     {

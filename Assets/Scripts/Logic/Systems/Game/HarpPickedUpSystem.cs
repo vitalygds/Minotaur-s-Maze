@@ -1,10 +1,8 @@
-﻿using Leopotam.EcsLite;
+﻿using General;
+using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.General.Controller;
-using MyGame.Logic.Components.Events;
-using MyGame.Logic.Services;
 
-namespace MyGame.Logic.Systems.Game
+namespace Logic
 {
     internal sealed class HarpPickedUpSystem : IEcsRunSystem
     {
@@ -15,7 +13,7 @@ namespace MyGame.Logic.Systems.Game
 
         public void Run(EcsSystems systems)
         {
-            foreach (var _ in _eventFilter.Value)
+            foreach (int _ in _eventFilter.Value)
             {
                 _mediator.SetArtifactPicked();
                 MusicController.Instance.OnObjectiveComplete();

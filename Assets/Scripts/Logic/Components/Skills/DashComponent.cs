@@ -1,4 +1,4 @@
-namespace MyGame.Logic.Components.Skills
+namespace Logic
 {
     internal struct DashComponent
     { }

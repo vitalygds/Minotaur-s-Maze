@@ -1,4 +1,4 @@
-namespace MyGame.General.Data
+namespace General
 {
     public interface ICameraData
     {

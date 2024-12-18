@@ -1,4 +1,4 @@
-﻿namespace MyGame.Core
+﻿namespace Core
 {
     internal static class SceneNames
     {

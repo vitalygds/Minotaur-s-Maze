@@ -1,7 +1,7 @@
-using MyGame.General.Data;
+using General;
 using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     [CreateAssetMenu(fileName = nameof(HudData), menuName = "ProjectData/" + nameof(HudData))]
     internal sealed class HudData : ScriptableObject, IHudData

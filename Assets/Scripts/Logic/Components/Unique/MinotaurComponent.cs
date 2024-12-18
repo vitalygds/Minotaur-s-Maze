@@ -1,4 +1,4 @@
-﻿namespace MyGame.Logic.Components.Unique
+﻿namespace Logic
 {
     internal struct MinotaurComponent
     {

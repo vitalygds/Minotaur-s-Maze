@@ -1,6 +1,4 @@
-using MyGame.Logic.Views;
-
-namespace MyGame.Logic.Components.Unity
+namespace Logic
 {
     internal struct TriggerViewComponent
     {

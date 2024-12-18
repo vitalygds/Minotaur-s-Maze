@@ -1,7 +1,7 @@
-using MyGame.General.Data;
+using General;
 using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     [CreateAssetMenu(fileName = nameof(AdsData), menuName = "ProjectData/" + nameof(AdsData))]
     public sealed class AdsData : ScriptableObject, IAdvertisementsData

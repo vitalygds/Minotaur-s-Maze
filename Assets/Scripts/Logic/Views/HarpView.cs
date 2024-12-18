@@ -1,8 +1,6 @@
-using MyGame.Logic.Components.Events;
-using MyGame.Logic.Services.Extensions;
 using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     [SelectionBase]
     [RequireComponent(typeof(CircleCollider2D))]

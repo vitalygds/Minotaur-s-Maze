@@ -1,4 +1,4 @@
-﻿namespace MyGame.Logic.Services
+﻿namespace Logic
 {
     internal static class WorldNames
     {

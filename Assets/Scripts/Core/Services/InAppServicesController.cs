@@ -1,11 +1,8 @@
 ﻿using System;
-using MyGame.General.Controller;
-using MyGame.General.Data;
-using MyGame.General.Service;
-using UnityEngine;
+using General;
 using Zenject;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class InAppServicesController : IInAppServicesController, IDisposable
     {

@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace MyGame.General.Service
+namespace General
 {
     public interface IPoolService
     {

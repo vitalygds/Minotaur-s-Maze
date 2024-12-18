@@ -1,10 +1,8 @@
-﻿using Leopotam.EcsLite;
+﻿using General;
+using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.General.Controller;
-using MyGame.Logic.Components.Events;
-using MyGame.Logic.Services;
 
-namespace MyGame.Logic.Systems.Game
+namespace Logic
 {
     internal sealed class WinGameSystem : IEcsRunSystem
     {

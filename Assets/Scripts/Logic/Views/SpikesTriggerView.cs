@@ -1,8 +1,7 @@
 using Leopotam.EcsLite;
-using MyGame.Logic.Components.Unity;
 using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     [RequireComponent(typeof(Collider2D))]
     internal sealed class SpikesTriggerView : TriggerView

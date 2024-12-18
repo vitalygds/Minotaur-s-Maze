@@ -1,8 +1,7 @@
+using General;
 using Leopotam.EcsLite;
-using MyGame.General.Service;
-using MyGame.Logic.Services.Extensions.Systems;
 
-namespace MyGame.Logic.Services.Extensions
+namespace Logic
 {
     public static class EcsSystemsExtensions
     {

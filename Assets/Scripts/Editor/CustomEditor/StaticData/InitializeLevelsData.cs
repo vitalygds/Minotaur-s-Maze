@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using MyGame.Data;
+using Data;
 using UnityEditor;
 using UnityEngine;
 
-namespace MyGame.Editor.CustomEditor.StaticData
+namespace Editor
 {
     public static class InitializeLevelsData
     {

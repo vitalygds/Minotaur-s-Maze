@@ -1,4 +1,4 @@
-﻿namespace MyGame.Core.StateMachines.Hero
+﻿namespace Core
 {
     public class HeroAnimatorStateMachine
     {

@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using MyGame.Data;
-using MyGame.General.Data;
-using MyGame.General.Service;
+using Data;
+using General;
 using UnityEngine;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class DataService : IDataService
     {

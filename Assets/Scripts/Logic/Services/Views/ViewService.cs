@@ -1,9 +1,8 @@
+using General;
 using Leopotam.EcsLite;
-using MyGame.General.Service;
-using MyGame.Logic.Components.Unity;
 using UnityEngine;
 
-namespace MyGame.Logic.Services.Views
+namespace Logic
 {
     internal sealed class ViewService : IViewService
     {

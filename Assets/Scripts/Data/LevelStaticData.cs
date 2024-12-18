@@ -1,7 +1,7 @@
-using MyGame.General.Data;
+using General;
 using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     [CreateAssetMenu(fileName = "LevelStaticData", menuName = "ProjectData/LevelStaticData")]
     public sealed class LevelStaticData : ScriptableObject, ILevelStaticData

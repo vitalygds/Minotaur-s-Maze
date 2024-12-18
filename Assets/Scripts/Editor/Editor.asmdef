@@ -1,12 +1,12 @@
 {
     "name": "Editor",
-    "rootNamespace": "MyGame",
+    "rootNamespace": "",
     "references": [
-        "Core",
-        "General",
-        "Data",
-        "Logic",
-        "UI"
+        "GUID:7c93a77020c434f46ae7e706e088e5f5",
+        "GUID:1d0b670215dc277408a7c5f08083a8d7",
+        "GUID:ee6e36d9bd6582b40973420d7cea0e51",
+        "GUID:6cf283b14606c814fa2c17c0835db2b5",
+        "GUID:b8c001f6bcbac124a9cee188cc68a65b"
     ],
     "includePlatforms": [
         "Editor"

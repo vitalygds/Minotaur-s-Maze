@@ -3,7 +3,7 @@ using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities.Editor;
 using UnityEngine;
 
-namespace MyGame.Editor.CustomEditor
+namespace Editor
 {
     public class SimpleTreeMenuEditor<T> where T : ScriptableObject
     {

@@ -1,12 +1,9 @@
-﻿using Leopotam.EcsLite;
-using MyGame.General.Service.Input;
-using MyGame.Logic.Components.Input;
-using MyGame.Logic.Services;
-using MyGame.Logic.Services.Extensions;
+﻿using General;
+using Leopotam.EcsLite;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace MyGame.Logic.Systems.Game
+namespace Logic
 {
     internal sealed class InputUpdateSystem : IHeroInputListener, IEcsInitSystem, IEcsDestroySystem
     {

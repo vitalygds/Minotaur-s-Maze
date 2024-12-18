@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyGame.General.Controller
+namespace General
 {
     public interface ICameraController : IController
     {

@@ -1,8 +1,7 @@
 using System;
-using MyGame.General.View;
 using UnityEngine;
 
-namespace MyGame.General.Controller
+namespace General
 {
     public interface IControllersMediator
     {

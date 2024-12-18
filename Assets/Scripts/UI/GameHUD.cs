@@ -1,12 +1,10 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using MyGame.Extensions;
-using MyGame.General.Controller;
-using MyGame.General.Data;
+using General;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace MyGame.UI
+namespace UI
 {
     public sealed class GameHUD : MonoBehaviour
     {

@@ -1,7 +1,7 @@
-﻿using MyGame.General.Data;
+﻿using General;
 using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     [CreateAssetMenu(fileName = nameof(UIData), menuName = "ProjectData/" + nameof(UIData))]
     public sealed class UIData : ScriptableObject, IUIData

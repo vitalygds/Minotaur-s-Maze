@@ -1,11 +1,10 @@
 ﻿using System;
-using MyGame.General.Controller;
-using MyGame.General.Service;
+using General;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class GameFactory : IGameFactory, IDisposable
     {

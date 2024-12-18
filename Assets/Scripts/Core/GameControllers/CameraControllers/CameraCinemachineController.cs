@@ -1,8 +1,8 @@
 ﻿using Cinemachine;
-using MyGame.Data;
+using Data;
 using UnityEngine;
 
-namespace MyGame.Core.GameControllers.CameraControllers
+namespace Core
 {
     internal sealed class CameraCinemachineController
     {

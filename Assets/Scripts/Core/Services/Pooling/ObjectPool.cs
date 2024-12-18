@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace MyGame.Core.Services.Pooling
+namespace Core
 {
     internal sealed class ObjectPool : IDisposable
     {

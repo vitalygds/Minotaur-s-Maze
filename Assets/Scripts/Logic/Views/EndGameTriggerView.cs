@@ -1,8 +1,6 @@
-﻿using MyGame.Logic.Components.Events;
-using MyGame.Logic.Services.Extensions;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace MyGame.Logic.Views
+namespace Logic
 {
     [RequireComponent(typeof(BoxCollider2D))]
     internal sealed class EndGameTriggerView : TriggerView

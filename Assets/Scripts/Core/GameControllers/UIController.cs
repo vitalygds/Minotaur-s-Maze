@@ -1,10 +1,8 @@
-using MyGame.General.Controller;
-using MyGame.General.Data;
-using MyGame.General.Extensions;
-using MyGame.UI;
+using General;
+using UI;
 using UnityEngine;
 
-namespace MyGame.Core.GameControllers
+namespace Core
 {
     internal sealed class UIController : IUIController
     {

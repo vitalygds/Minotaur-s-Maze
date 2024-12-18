@@ -1,7 +1,6 @@
 using System;
-using MyGame.General.Data;
 
-namespace MyGame.General.Service
+namespace General
 {
     public interface IInAppServicesController
     {

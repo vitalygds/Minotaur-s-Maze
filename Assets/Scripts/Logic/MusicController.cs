@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyGame.Logic
+namespace Logic
 {
     [RequireComponent(typeof(AudioSource))]
     internal sealed class MusicController : MonoBehaviour

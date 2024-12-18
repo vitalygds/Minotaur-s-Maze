@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyGame.General.Data
+namespace General
 {
     public interface IStaticData
     {

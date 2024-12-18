@@ -1,7 +1,7 @@
 ﻿using Leopotam.EcsLite;
 using UnityEngine;
 
-namespace MyGame.Logic.Components.Events
+namespace Logic
 {
     public struct OnTriggerEnter2DEvent
     {

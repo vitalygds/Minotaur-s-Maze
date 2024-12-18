@@ -1,6 +1,6 @@
 using System;
 
-namespace MyGame.General.Service
+namespace General
 {
     public interface IAdvertisementsService
     {

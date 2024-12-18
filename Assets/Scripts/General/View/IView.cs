@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MyGame.General.View
+namespace General
 {
     public interface IView
     {

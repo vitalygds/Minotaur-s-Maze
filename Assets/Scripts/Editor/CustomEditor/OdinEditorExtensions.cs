@@ -4,7 +4,7 @@ using Sirenix.Utilities.Editor;
 using UnityEditor;
 using UnityEngine;
 
-namespace MyGame.Editor.CustomEditor
+namespace Editor
 {
     public class OdinEditorExtensions
     {

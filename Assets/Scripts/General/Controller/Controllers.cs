@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MyGame.General.Controller
+namespace General
 {
     public sealed class Controllers
     {

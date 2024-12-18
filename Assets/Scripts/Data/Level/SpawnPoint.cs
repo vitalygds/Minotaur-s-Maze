@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyGame.Data.Level
+namespace Data
 {
     public class SpawnPoint : MonoBehaviour
     {

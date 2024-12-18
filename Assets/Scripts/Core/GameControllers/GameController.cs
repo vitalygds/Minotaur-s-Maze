@@ -1,7 +1,7 @@
-using MyGame.General.Controller;
+using General;
 using UnityEngine;
 
-namespace MyGame.Core.GameControllers
+namespace Core
 {
     internal sealed class GameController : MonoBehaviour, IGameController
     {

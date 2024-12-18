@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     [CreateAssetMenu(fileName = "DungeonData", menuName = "ProjectData/DungeonData")]
     public sealed class DungeonData : ScriptableObject

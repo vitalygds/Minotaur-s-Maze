@@ -1,6 +1,6 @@
 ﻿using Pathfinding;
 
-namespace MyGame.Logic.Components.Pathfinder
+namespace Logic
 {
     internal struct SeekerComponent
     {

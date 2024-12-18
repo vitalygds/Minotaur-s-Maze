@@ -1,4 +1,4 @@
-namespace MyGame.Data
+namespace Data
 {
     public static class DataPaths
     {

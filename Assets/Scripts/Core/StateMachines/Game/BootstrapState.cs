@@ -1,7 +1,6 @@
-using MyGame.Core.Services;
-using MyGame.General.StateMachine.Interfaces;
+using General;
 
-namespace MyGame.Core.StateMachines.Game
+namespace Core
 {
     internal sealed class BootstrapState : ILoadingState<string>
     {

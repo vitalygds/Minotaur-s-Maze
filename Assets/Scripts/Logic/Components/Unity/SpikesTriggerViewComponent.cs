@@ -1,4 +1,4 @@
-namespace MyGame.Logic.Components.Unity
+namespace Logic
 {
     internal struct SpikesTriggerViewComponent
     {

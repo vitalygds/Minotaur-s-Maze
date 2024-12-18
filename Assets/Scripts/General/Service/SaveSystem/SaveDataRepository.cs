@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace MyGame.General.Service.SaveSystem
+namespace General
 {
     public sealed class SaveDataRepository<T> : ISaveDataService<T>
     {

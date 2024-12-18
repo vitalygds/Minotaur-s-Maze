@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using MyGame.General.Data;
+using General;
 using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     public sealed class OnSceneSerializationData : MonoBehaviour, ISceneSerializedData
     {

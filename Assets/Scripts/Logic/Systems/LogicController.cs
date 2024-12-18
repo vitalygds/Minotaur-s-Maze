@@ -1,22 +1,8 @@
-﻿using System;
+﻿using General;
 using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.General.Controller;
-using MyGame.General.Data;
-using MyGame.General.Service;
-using MyGame.General.Service.Input;
-using MyGame.Logic.Components.Events;
-using MyGame.Logic.Components.Input;
-using MyGame.Logic.Components.Skills;
-using MyGame.Logic.Services;
-using MyGame.Logic.Services.Extensions;
-using MyGame.Logic.Services.Views;
-using MyGame.Logic.Systems.Game;
-using MyGame.Logic.Systems.Hero;
-using MyGame.Logic.Systems.Initialize;
-using MyGame.Logic.Systems.Minotaur;
 
-namespace MyGame.Logic.Systems
+namespace Logic
 {
     public sealed class LogicController : ILogicController, IUpdate, IFixedUpdate, IDestroy
     {

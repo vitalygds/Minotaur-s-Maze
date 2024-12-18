@@ -1,8 +1,8 @@
-﻿using MyGame.General.Controller;
+﻿using General;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace MyGame.UI
+namespace UI
 {
     public sealed class PauseMenu : MonoBehaviour
     {

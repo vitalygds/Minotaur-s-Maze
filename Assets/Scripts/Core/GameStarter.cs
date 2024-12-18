@@ -1,8 +1,7 @@
-﻿using System;
-using MyGame.General;
+﻿using General;
 using UnityEngine;
 
-namespace MyGame.Core
+namespace Core
 {
     internal sealed class GameStarter : MonoBehaviour, IGameStarter
     {

@@ -1,8 +1,7 @@
-using MyGame.General.Data;
-using MyGame.General.Service;
+using General;
 using UnityEngine;
 
-namespace MyGame.Data
+namespace Data
 {
     [CreateAssetMenu(fileName = nameof(StaticData), menuName = "ProjectData/" + nameof(StaticData))]
     public sealed class StaticData : ScriptableObject, IStaticData

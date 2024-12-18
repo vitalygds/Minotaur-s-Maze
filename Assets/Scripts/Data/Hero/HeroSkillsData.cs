@@ -1,6 +1,6 @@
 using System;
 
-namespace MyGame.Data.Hero
+namespace Data
 {
     [Serializable]
     public struct HeroSkillsData

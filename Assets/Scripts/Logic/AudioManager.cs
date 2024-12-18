@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace MyGame.Logic
+namespace Logic
 {
     [System.Serializable]
     public class Sound
@@ -11,10 +9,8 @@ namespace MyGame.Logic
         public AudioClip[] m_clips;
         public AudioSource m_sourcePrefab;
 
-        [Range(0f, 1f)]
-        public float volume = 1.0f;
-        [Range(0f, 1.5f)]
-        public float pitch = 1.0f;
+        [Range(0f, 1f)] public float volume = 1.0f;
+        [Range(0f, 1.5f)] public float pitch = 1.0f;
         public Vector2 m_randomVolumeRange = new Vector2(1.0f, 1.0f);
         public Vector2 m_randomPitchRange = new Vector2(1.0f, 1.0f);
 
@@ -29,11 +25,12 @@ namespace MyGame.Logic
 
         public void Play()
         {
-            if(m_clips.Length > 1)
+            if (m_clips.Length > 1)
             {
                 int randomClip = Random.Range(0, m_clips.Length - 1);
                 m_source.clip = m_clips[randomClip];
             }
+
             m_source.volume = volume * Random.Range(m_randomVolumeRange.x, m_randomVolumeRange.y);
             m_source.pitch = pitch * Random.Range(m_randomPitchRange.x, m_randomPitchRange.y);
             m_source.Play();
@@ -46,7 +43,7 @@ namespace MyGame.Logic
 
         private void Start()
         {
-            for(int i = 0; i < m_sounds.Length; i++)
+            for (int i = 0; i < m_sounds.Length; i++)
             {
                 var source = Instantiate(m_sounds[i].m_sourcePrefab);
                 source.gameObject.name = "Sound_" + i + "_" + m_sounds[i].m_name;
@@ -56,11 +53,11 @@ namespace MyGame.Logic
             }
         }
 
-        private void PlaySound (string name)
+        private void PlaySound(string name)
         {
-            for(int i = 0; i < m_sounds.Length; i++)
+            for (int i = 0; i < m_sounds.Length; i++)
             {
-                if(m_sounds[i].m_name == name)
+                if (m_sounds[i].m_name == name)
                 {
                     m_sounds[i].Play();
                     return;
@@ -74,6 +71,7 @@ namespace MyGame.Logic
         {
             PlaySound("Footstep");
         }
+
         public void PlaySweep()
         {
             PlaySound("Sweep");

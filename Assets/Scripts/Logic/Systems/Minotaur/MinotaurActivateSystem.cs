@@ -1,13 +1,7 @@
 ﻿using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.Logic.Components;
-using MyGame.Logic.Components.Events;
-using MyGame.Logic.Components.Unique;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services;
-using MyGame.Logic.Services.Extensions;
 
-namespace MyGame.Logic.Systems.Minotaur
+namespace Logic
 {
     internal sealed class MinotaurActivateSystem : IEcsRunSystem
     {

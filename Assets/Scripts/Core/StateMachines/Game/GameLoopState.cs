@@ -1,7 +1,6 @@
-using MyGame.General.Controller;
-using MyGame.General.StateMachine.Interfaces;
+using General;
 
-namespace MyGame.Core.StateMachines.Game
+namespace Core
 {
     internal class GameLoopState : ILoadingState<IGameController>
     {

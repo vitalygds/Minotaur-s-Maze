@@ -1,8 +1,6 @@
-﻿using MyGame.General.Controller;
-using MyGame.General.Data;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace MyGame.General.Service
+namespace General
 {
     public interface IControllersService
     {

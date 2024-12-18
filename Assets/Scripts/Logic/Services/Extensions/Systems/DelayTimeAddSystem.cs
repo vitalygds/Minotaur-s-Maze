@@ -1,8 +1,7 @@
-﻿using Leopotam.EcsLite;
-using MyGame.General.Service;
-using MyGame.Logic.Services.Extensions.Components;
+﻿using General;
+using Leopotam.EcsLite;
 
-namespace MyGame.Logic.Services.Extensions.Systems
+namespace Logic
 {
     internal sealed class DelayTimeAddSystem<T> : IEcsInitSystem, IEcsRunSystem where T : struct
     {

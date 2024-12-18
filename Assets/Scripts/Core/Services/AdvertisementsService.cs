@@ -1,9 +1,9 @@
 ﻿using System;
-using MyGame.General.Service;
+using General;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
-namespace MyGame.Core.Services
+namespace Core
 {
     internal sealed class AdvertisementsService : IAdvertisementsService, IUnityAdsInitializationListener, IUnityAdsShowListener, IUnityAdsLoadListener
     {

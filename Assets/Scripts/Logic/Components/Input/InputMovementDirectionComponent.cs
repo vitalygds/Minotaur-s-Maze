@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyGame.Logic.Components.Input
+namespace Logic
 {
     internal struct InputMovementDirectionComponent
     {

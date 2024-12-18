@@ -1,11 +1,7 @@
-﻿using Leopotam.EcsLite;
-using MyGame.General.Data;
-using MyGame.Logic.Services;
-using MyGame.Logic.Services.Views;
-using MyGame.Logic.Views;
-using UnityEngine;
+﻿using General;
+using Leopotam.EcsLite;
 
-namespace MyGame.Logic.Systems.Initialize
+namespace Logic
 {
     internal class InitializeOnSceneTriggers : IEcsInitSystem
     {
@@ -15,8 +11,8 @@ namespace MyGame.Logic.Systems.Initialize
 
         public void Init(EcsSystems systems)
         {
-            var world = systems.GetWorld();
-            var eventWorld = systems.GetWorld(WorldNames.EVENT);
+            EcsWorld world = systems.GetWorld();
+            EcsWorld eventWorld = systems.GetWorld(WorldNames.EVENT);
             
             foreach (var trigger in _sceneSerializedData.OnSceneTriggers)
             {

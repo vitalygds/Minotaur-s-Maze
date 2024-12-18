@@ -1,12 +1,8 @@
 using Cysharp.Threading.Tasks;
-using MyGame.Core.GameControllers;
-using MyGame.Core.Services;
-using MyGame.General.Controller;
-using MyGame.General.Service;
-using MyGame.General.StateMachine.Interfaces;
+using General;
 using UnityEngine;
 
-namespace MyGame.Core.StateMachines.Game
+namespace Core
 {
     internal sealed class LoadSceneState : ILoadingState<string>
     {

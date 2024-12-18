@@ -1,15 +1,8 @@
-﻿using Leopotam.EcsLite;
+﻿using General;
+using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
-using MyGame.General.Data;
-using MyGame.General.Service;
-using MyGame.Logic.Components.Input;
-using MyGame.Logic.Components.Skills;
-using MyGame.Logic.Components.Unique;
-using MyGame.Logic.Components.Unity;
-using MyGame.Logic.Services;
-using MyGame.Logic.Services.Extensions;
 
-namespace MyGame.Logic.Systems.Hero
+namespace Logic
 {
     internal sealed class HeroActionInputSystem : IEcsRunSystem
     {

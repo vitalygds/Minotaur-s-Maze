@@ -1,9 +1,6 @@
-using MyGame.Core.Services;
-using MyGame.Core.StateMachines.Game;
-using MyGame.General.Controller;
-using MyGame.General.Service;
+using General;
 
-namespace MyGame.Core
+namespace Core
 {
     internal sealed class Game
     {
